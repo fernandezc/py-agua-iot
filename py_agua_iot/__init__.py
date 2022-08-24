@@ -578,9 +578,9 @@ class Device(object):
     def max_temp(self):
         return self.__get_information_item_max('temp_air_set')
 
-    @property
-    def air_temperature(self):
-        return float(self.__get_information_item('temp_air_get'))
+#    @property
+#    def air_temperature(self):
+#        return float(self.__get_information_item('temp_air_get'))
 
     @property
     def set_air_temperature(self):
