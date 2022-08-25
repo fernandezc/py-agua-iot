@@ -47,9 +47,9 @@ class agua_iot(object):
     """Provides access to Micronova's IOT Agua platform."""
 
     statusTranslated = {
-        0: "OFF", 1: "START", 2: "LOAD PELLETS", 3: "FLAME LIGHT", 4: "ON",
-        5: "CLEANING FIRE-POT", 6: "CLEANING FINAL", 7: "?", 8: "ECO-STOP",
-        9: "NO PELLETS", 10: "?", 11: "?", 12: "?", 13: "?", 14: "?", 15: "?",
+        0: "OFF", 1: "START", 2: "CHARGEMENT PELLET", 3: "ALLUMAGE FLAMME", 4: "ON",
+        5: "NETTOYAGE POT", 6: "FIN NETTOYAGE", 7: "ECHO STOP", 8: "ARRET",
+        9: "PAS DE PELLET", 10: "?", 11: "?", 12: "?", 13: "?", 14: "?", 15: "?",
         16: "?", 17: "?", 18: "?", 19: "?"
     }
 
