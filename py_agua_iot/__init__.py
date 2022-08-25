@@ -580,7 +580,7 @@ class Device(object):
 
     @property
     def air_temperature(self):
-        return float(self.__get_information_item('temp_air_get'))
+        return float(self.__get_information_item('temp_air2_get'))
 
     @property
     def set_air_temperature(self):
