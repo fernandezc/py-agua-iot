@@ -47,9 +47,9 @@ class agua_iot(object):
     """Provides access to Micronova's IOT Agua platform."""
 
     statusTranslated = {
-        0: "OFF", 1: "START", 2: "CHARGEMENT PELLET", 3: "ALLUMAGE FLAMME", 4: "ON",
+        0: "OFF", 1: "ATTEN.", 2: "CHARGEMENT PELLET", 3: "ALLUMAGE FLAMME", 4: "DÉBUT",
         5: "NETTOYAGE POT", 6: "FIN NETTOYAGE", 7: "ARRET", 8: "ECHO STOP",
-        9: "PAS DE PELLET", 10: "?", 11: "?", 12: "?", 13: "?", 14: "?", 15: "?",
+        9: "STAND BY", 10: "ALARME", 11: "MEM.ALM", 12: "?", 13: "?", 14: "?", 15: "?",
         16: "?", 17: "?", 18: "?", 19: "?"
     }
 
@@ -115,7 +115,7 @@ class agua_iot(object):
             "phone_type": "Android",
             "phone_id": self.unique_id,
             "phone_version": "1.0",
-            "language": "en",
+            "language": "fr",
             "id_app": self.unique_id,
             "push_notification_token": self.unique_id,
             "push_notification_active": False
@@ -356,11 +356,11 @@ class Device(object):
                     })
                     if 'enc_val' in register:
                         for v in register['enc_val']:
-                            if v['lang'] == "ENG" and v['description'] == 'ON':
+                            if v['lang'] == "FRA" and v['description'] == 'ON':
                                 register_dict.update({
                                     'value_on': v['value']
                                 })
-                            elif v['lang'] == "ENG" and v['description'] == 'OFF':
+                            elif v['lang'] == "FRA" and v['description'] == 'OFF':
                                 register_dict.update({
                                     'value_off': v['value']
                                 })
