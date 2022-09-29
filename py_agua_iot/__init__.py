@@ -48,7 +48,7 @@ class agua_iot(object):
 
     statusTranslated = {
         0: "OFF", 1: "ATTEN.", 2: "CHARGEMENT PELLET", 3: "ALLUMAGE FLAMME", 4: "DÉBUT",
-        5: "NETTOYAGE POT", 6: "FIN NETTOYAGE", 7: "ARRET", 8: "ECHO STOP",
+        5: "NETTOYAGE POT", 6: "FIN NETTOYAGE", 7: "ARRET", 8: "ECO STOP",
         9: "STAND BY", 10: "ALARME", 11: "MEM.ALM", 12: "?", 13: "?", 14: "?", 15: "?",
         16: "?", 17: "?", 18: "?", 19: "?"
     }
