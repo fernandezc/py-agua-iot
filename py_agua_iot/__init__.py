@@ -356,11 +356,11 @@ class Device(object):
                     })
                     if 'enc_val' in register:
                         for v in register['enc_val']:
-                            if v['lang'] == "ENG" and v['description'] == 'ON':
+                            if v['lang'] == "FRA" and v['description'] == 'ON':
                                 register_dict.update({
                                     'value_on': v['value']
                                 })
-                            elif v['lang'] == "ENG" and v['description'] == 'OFF':
+                            elif v['lang'] == "FRA" and v['description'] == 'OFF':
                                 register_dict.update({
                                     'value_off': v['value']
                                 })
