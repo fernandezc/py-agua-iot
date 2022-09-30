@@ -52,7 +52,7 @@ class agua_iot(object):
         9: "STAND BY", 10: "ALARME", 11: "MEM.ALM", 12: "?", 13: "?", 14: "?", 15: "?",
         16: "?", 17: "?", 18: "?", 19: "?"
     }
-
+ 
     def __init__(self, api_url, customer_code, email, password, unique_id, login_api_url=None, brand_id=1, debug=False):
         """agua_iot object constructor"""
         if debug is True:
