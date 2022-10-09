@@ -29,7 +29,7 @@ API_PATH_DEVICE_BUFFER_READING = "/deviceGetBufferReading"
 API_PATH_DEVICE_JOB_STATUS = "/deviceJobStatus/"
 API_PATH_DEVICE_WRITING = "/deviceRequestWriting"
 API_LOGIN_APPLICATION_VERSION = "2.1.0.0"
-DEFAULT_TIMEOUT_VALUE = 5
+DEFAULT_TIMEOUT_VALUE = 15
 
 HEADER_ACCEPT = (
     "application/json, text/javascript, */*; q=0.01"
