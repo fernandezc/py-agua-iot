@@ -3,7 +3,7 @@
   "name": "Micronova Agua IOT",
   "documentation": "https://github.com/thetux07/py-agua-iot/tree/master/examples/home-assistant",
   "version": "0.0.9",
-  "requirements": ["git+https://github.com/thetux07/py-agua-iot.git#py-agua-iot==0.0.9"],
+  "requirements": ["git+https://github.com/thetux07/py-agua-iot.git#py-agua-iot"],
   "dependencies": [],
   "codeowners": ["@thetux07"],
   "config_flow": true
