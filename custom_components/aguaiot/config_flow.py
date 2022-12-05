@@ -100,7 +100,7 @@ class AguaIOTConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                          default=user_input.get(CONF_CUSTOMER_CODE))
         ] = str
         data_schema[
-            vol.Required(CONF_BRAND_ID, default=1)
+            vol.Required(CONF_BRAND_ID, default="1")
         ] = str
         data_schema[
             vol.Required(CONF_EMAIL, default=user_input.get(CONF_EMAIL))
